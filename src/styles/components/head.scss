@@ -1,0 +1,25 @@
+@import "../mixin.scss";
+@import "../common.scss";
+
+.setction {
+  @extend .full;
+}
+
+.row {
+  @include flex();
+  width: 100%;
+  height: 4.625rem;
+}
+
+.budget {
+  @include flex();
+  width: 19.4375rem;
+  padding: 1.0625rem 1.875rem;
+  border-radius: $brd_radius_md;
+  background-color: $cl_f4;
+}
+
+.right_menu {
+  @extend .row;
+  width: 40%;
+}

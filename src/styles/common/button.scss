@@ -1,0 +1,11 @@
+@mixin btn($width, $height, $backgroundcolor, $borderRadius) {
+  width: $width;
+  height: $height;
+  color: white;
+  background-color: $backgroundcolor;
+  border-radius: $borderRadius;
+}
+
+.dft_btn {
+  @include btn(100%, 3rem, #222, 0.375rem);
+}

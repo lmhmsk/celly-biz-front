@@ -1,0 +1,30 @@
+@import "../mixin.scss";
+@import "../common.scss";
+
+// .section {
+// }
+
+.menu_wrap {
+  width: 13.75rem;
+}
+
+.menu_btn {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  border-radius: $brd_radius_xs;
+  background-color: $cl_black;
+  color: white;
+}
+
+.menu_list {
+  font-size: 1rem;
+  font-weight: 500;
+  list-style: none;
+
+  &.selected {
+    font-weight: bold;
+    list-style: disc;
+  }
+}
